@@ -119,6 +119,10 @@ html{
   padding: .5rem 1rem;
   margin: 2rem;
 }
+.search-google:hover {
+  border: 0.1rem solid var(--color-text-light);
+  box-shadow: 0 0 1.5rem var(--color-secondary);
+}
 
 .search-google .search-input {
   flex-grow: 1;
@@ -127,8 +131,8 @@ html{
   border-right: 1px solid var(--color-secondary);
   padding: .6rem;
   margin: 0 1rem;
+  outline: none;
 }
-.search-google .search-input:focus { outline: none; }
 
 .search-google .icon { width: 2.5rem; }
 .search-google .icon-search { fill:var(--color-secondary) }
@@ -140,7 +144,7 @@ html{
 .buttons-google .btn{
   background-color: none;
   padding: 1rem;
-  margin: 4rem 2rem 5rem;
+  margin: 3rem 2rem 5rem;
   color: var(--color-text-dark);
   border:0.1rem solid var(--color-text-light);
   border-radius: 0.5rem;
